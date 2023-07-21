@@ -160,6 +160,9 @@ ul {
   display: flex;
   padding-left: 76px;
   gap: 40px;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .works-list {
