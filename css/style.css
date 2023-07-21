@@ -427,3 +427,7 @@ ul {
 .wrapper .container {
   display: flex;
 }
+
+.section-btn-nav {
+  padding-top: 96px;
+}
