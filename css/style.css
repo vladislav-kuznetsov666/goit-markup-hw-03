@@ -100,11 +100,9 @@ ul {
   letter-spacing:0.03em;
   font-weight: 800;
   gap: 40px;
+  margin-right: 76px;
   }
 
-  .link .logo {
-    margin-right: 76px;
-  }
   
   .address-section .list .link {
    color: var(--color-secondary-text);
