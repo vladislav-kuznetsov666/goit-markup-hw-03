@@ -266,6 +266,10 @@ ul {
   border: none;
   color: #ffffff;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
 }
 
 .btn-nav {
