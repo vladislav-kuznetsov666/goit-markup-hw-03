@@ -40,6 +40,16 @@ ul {
   max-width: 1158px;
   margin-left: 156px;
   margin-right: 156px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container .address-section .list {
+  padding-left: 332px;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header .container {
@@ -48,6 +58,7 @@ ul {
 
 .header-navigation {
   display: flex;
+  align-items: center;
 }
 
 .logo-web {
@@ -88,6 +99,7 @@ ul {
   text-transform: uppercase;
   letter-spacing:0.03em;
   font-weight: 800;
+  
   }
   
   .address-section .list .link {
@@ -97,8 +109,8 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   text-transform: uppercase;
-  letter-spacing:0.02em;
-  font-weight: 800;
+  letter-spacing: 0.02em;
+  font-weight: 400;
   }
 
   .list .link:hover {
@@ -123,6 +135,7 @@ ul {
   font-family: 'Roboto', sans-serif;
   display: flex;
   padding-left: 76px;
+  
 
 }
 
