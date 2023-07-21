@@ -54,6 +54,7 @@ ul {
 
 .header .container {
   display: flex;
+  gap: 40px;
 }
 
 .header-navigation {
@@ -99,7 +100,6 @@ ul {
   text-transform: uppercase;
   letter-spacing:0.03em;
   font-weight: 800;
-  gap: 40px;
   margin-right: 76px;
   }
 
