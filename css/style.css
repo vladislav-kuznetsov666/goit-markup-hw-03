@@ -215,6 +215,10 @@ ul {
   background: var(--color-bg-team);
   border: 2px solid #e7e9fc;
   color: var(--accent);
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+
 }
 
 .list .btn-nav:hover,
