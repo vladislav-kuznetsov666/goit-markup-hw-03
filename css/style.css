@@ -41,7 +41,7 @@ ul {
 }
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   margin-left: 156px;
   margin-right: 156px;
   margin: 0 auto;
@@ -101,6 +101,7 @@ ul {
 .logo-web .link {
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 76px;
 }
 
 
@@ -158,6 +159,7 @@ ul {
   font-family: "Roboto", sans-serif;
   display: flex;
   padding-left: 76px;
+  gap: 40px;
 }
 
 .works-list {
@@ -205,6 +207,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding: 24px 0;
 }
 
 .list .btn-nav {
@@ -401,6 +404,11 @@ ul {
   text-transform: lowercase;
 }
 
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -412,4 +420,10 @@ ul {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+/* portfolio */
+
+.wrapper .container {
+  display: flex;
 }
