@@ -76,6 +76,8 @@ ul {
   color: var(--color-main-text);
   font-weight: 800;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-studio {
@@ -88,8 +90,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--color-main-text);
   font-weight: 800;
-  display: inline-block;
-  margin-bottom: 16px;
+  
 }
 
 .logo-studio-white {
@@ -101,7 +102,6 @@ ul {
   display: inline-block;
   margin-bottom: 16px;
 }
-
 
 
 .link {
