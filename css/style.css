@@ -99,7 +99,11 @@ ul {
   text-transform: uppercase;
   letter-spacing:0.03em;
   font-weight: 800;
-  
+  gap: 40px;
+  }
+
+  .link .logo {
+    margin-right: 76px;
   }
   
   .address-section .list .link {
