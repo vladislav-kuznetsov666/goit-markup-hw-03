@@ -95,6 +95,13 @@ ul {
   font-family: "Raleway" sans-serif;
 }
 
+.logo-web .link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+
+
 .link {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -257,6 +264,7 @@ ul {
 
 .section-address {
   color: #e7e9fc;
+  padding: 100px 0;
 }
 
 .section-team {
@@ -277,6 +285,7 @@ ul {
   line-height: 1.5;
   color: var(--color-bg-team);
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 .hero {
