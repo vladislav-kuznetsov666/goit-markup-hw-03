@@ -151,6 +151,15 @@ ul {
   padding-left: 76px;
 }
 
+.works-list {
+  display: flex;
+  gap: 24px;
+}
+
+.works-item {
+  width: calc((100% - 48px) / 3);
+}
+
 .list-item {
   background-color: #ffffff;
 }
@@ -319,6 +328,10 @@ ul {
   background-color: #f4f4fd;
 }
 
+.section-works {
+  padding-bottom: 120px;
+}
+
 .strategy-title {
   font-weight: 500;
   font-size: 20px;
@@ -326,7 +339,7 @@ ul {
   letter-spacing: 0.02em;
   color: var(--color-main-text);
   margin-bottom: 8px;
-  
+
 }
 
 .section-features {
@@ -340,6 +353,7 @@ ul {
   text-transform: capitalize;
   color: var(--color-main-text);
   letter-spacing: 0.02em;
+  margin-bottom: 72px;
 }
 
 .address-section {
