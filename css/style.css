@@ -162,6 +162,15 @@ ul {
   gap: 40px;
 }
 
+.btn-list {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+ justify-content: center;
+ gap: 24px;
+ margin-bottom: 72px;
+}
+
 .works-list {
   display: flex;
   gap: 24px;
@@ -210,7 +219,7 @@ ul {
   padding: 24px 0;
 }
 
-.list .btn-nav {
+.btn-list .btn-nav {
   cursor: pointer;
   background: var(--color-bg-team);
   border: 2px solid #e7e9fc;
@@ -221,8 +230,13 @@ ul {
 
 }
 
-.list .btn-nav:hover,
-.list .btn-nav:focus {
+
+.navigation-list {
+
+}
+
+.btn-list .btn-nav:hover,
+.btn-list .btn-nav:focus {
   color: #ffffff;
   background: var(--accent-pressed-state);
   border: none;
