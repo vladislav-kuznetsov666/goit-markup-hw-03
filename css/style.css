@@ -162,6 +162,25 @@ ul {
   gap: 40px;
 }
 
+.card-list {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.card-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.card-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 .btn-list {
   list-style: none;
   font-family: "Roboto", sans-serif;
