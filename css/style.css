@@ -181,6 +181,10 @@ ul {
   border-top: none;
 }
 
+.gallery-title {
+  margin-bottom: 8px;
+}
+
 .btn-list {
   list-style: none;
   font-family: "Roboto", sans-serif;
