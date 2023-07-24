@@ -48,6 +48,8 @@ ul {
   padding: 0 15px;
 }
 
+
+
 .container .address-section .list {
   padding-left: 332px;
 }
@@ -161,6 +163,8 @@ ul {
   padding-left: 76px;
   gap: 40px;
 }
+
+.address-l
 
 .card-list {
   list-style: none;
@@ -348,6 +352,10 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  text-align: center;
+  padding-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn-banner {
@@ -360,8 +368,11 @@ ul {
   border: none;
   color: #ffffff;
   cursor: pointer;
-  display: block;
+  display: inline-flex;
   min-width: 169px;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
   height: 56px;
   border-radius: 4px;
 }
