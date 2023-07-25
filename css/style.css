@@ -1,4 +1,4 @@
-:root {
+:root{
   --primary-bg-color: #ffffff;
   --secondary-bg-color: #2e2f42;
   --color-main-text: #2e2f42;
@@ -40,6 +40,7 @@ ul {
   padding-left: 0;
 }
 
+
 .container {
   width: 1158px;
   margin-left: 156px;
@@ -51,7 +52,13 @@ ul {
 
 
 .container .address-section .list {
-  padding-left: 332px;
+  padding-left: 0px;
+  align-items: center;
+}
+
+.address-section .address-list {
+  list-style: none;
+  align-items: center;
 }
 
 .header {
@@ -156,6 +163,16 @@ ul {
   width: calc((100% - 72px) / 4);
 }
 
+.card-list {
+  list-style: none;
+  display: flex;
+  gap: 24px
+}
+
+.card-item {
+  width: calc((100% - 48px) / 3);
+}
+
 .list {
   list-style: none;
   font-family: "Roboto", sans-serif;
@@ -175,8 +192,11 @@ ul {
   row-gap: 48px;
 }
 
+
+
 .card-item {
   width: calc((100% - 48px) / 3);
+  list-style: none;
 }
 
 .card-container {
@@ -185,9 +205,7 @@ ul {
   border-top: none;
 }
 
-.gallery-title {
-  margin-bottom: 8px;
-}
+
 
 .btn-list {
   list-style: none;
@@ -292,19 +310,28 @@ ul {
   color: var(--accent-pressed-state);
 }
 
+
+
 .gallery-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  text-transform: capitalize;
   color: var(--color-main-text);
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.4px;
 }
+
 
 .gallery-text {
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-secondary-text);
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px;
 }
 
 .section-address {
@@ -470,6 +497,23 @@ ul {
 .address-list {
   display: flex;
   gap: 40px;
+  color: var(--slate, #434455);
+
+font-size: 16px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px;
+}
+
+.address-list li {
+  font-size: 16px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px;
 }
 
 .visually-hidden {
@@ -489,6 +533,11 @@ ul {
 
 .wrapper .container {
   display: flex;
+  width: 1158px;
+  margin-left: 156px;
+  margin-right: 156px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .section-btn-nav {
