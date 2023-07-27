@@ -40,6 +40,19 @@ ul {
   padding-left: 0;
 }
 
+.header .navigation {
+  display: flex;
+  gap: 40px;
+}
+
+.list {
+  list-style: none;
+  
+}
+
+.link {
+  text-decoration: none;
+}
 
 .container {
   width: 1158px;
@@ -68,8 +81,6 @@ ul {
 
 .header .container {
   display: flex;
-  gap: 40px;
-  
 }
 
 .header-navigation {
@@ -84,7 +95,6 @@ ul {
   line-height: 1.17;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  color: var(--color-main-text);
   font-weight: 800;
   color: #4d5ae5;
   display: inline-block;
@@ -116,11 +126,9 @@ ul {
   margin-right: 76px;
 }
 
-
-.link {
+.header-navigation .logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
-  text-decoration: none;
   font-size: 18px;
   line-height: 1.17;
   text-transform: uppercase;
@@ -168,19 +176,15 @@ ul {
 .card-list {
   list-style: none;
   display: flex;
-  gap: 24px
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px
 }
 
 .card-item {
   width: calc((100% - 48px) / 3);
 }
 
-.list {
-  list-style: none;
-  font-family: "Roboto", sans-serif;
-  display: flex;
-  gap: 40px;
-}
 
 
 .card-list {
@@ -396,13 +400,12 @@ letter-spacing: 0.32px;
   border: none;
   color: #ffffff;
   cursor: pointer;
-  display: inline-flex;
+  display: block;
   min-width: 169px;
   padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
   height: 56px;
   border-radius: 4px;
+  margin: 0 auto;
 }
 
 .btn-list .btn-nav {
