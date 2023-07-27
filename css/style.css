@@ -54,6 +54,7 @@ ul {
 .container .address-section .list {
   padding-left: 0px;
   align-items: center;
+  
 }
 
 .address-section .address-list {
@@ -68,6 +69,7 @@ ul {
 .header .container {
   display: flex;
   gap: 40px;
+  
 }
 
 .header-navigation {
@@ -99,6 +101,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--color-main-text);
   font-weight: 800;
+  margin-right: 76px;
   
 }
 
@@ -123,7 +126,6 @@ ul {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   font-weight: 800;
-  margin-right: 76px;
 }
 
 .address-section .list .link {
@@ -177,11 +179,9 @@ ul {
   list-style: none;
   font-family: "Roboto", sans-serif;
   display: flex;
-  padding-left: 76px;
   gap: 40px;
 }
 
-.address-l
 
 .card-list {
   list-style: none;
@@ -195,7 +195,7 @@ ul {
 
 
 .card-item {
-  flex-basis: calc((100% - 48px) / 3);
+  flex-basisу: calc((100% - 48px) / 3);
   list-style: none;
 }
 
@@ -262,6 +262,7 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   padding: 24px 0;
+  display: block;
 }
 
 .btn-list .btn-nav {
@@ -485,6 +486,7 @@ letter-spacing: 0.32px;
 }
 
 .address-section {
+  margin-left: auto;
   font-style: normal;
 }
 
